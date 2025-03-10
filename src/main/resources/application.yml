@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo
+  redis:
+    host: 172.17.0.3
+    port: 6379
+    password:
