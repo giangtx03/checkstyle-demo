@@ -116,7 +116,7 @@ public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory connec
     template.setValueSerializer(new GenericJackson2JsonRedisSerializer());
     return template;
 ```
-## 3️⃣ Redis + RedisInsight
+## 3️⃣ ElasticSearch + Kibana
 ###  a. Docker
 ####    i. Pull image
 ```sh
